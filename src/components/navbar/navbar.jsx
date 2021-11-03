@@ -13,6 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
+import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Categorias from './categorias';
@@ -189,11 +190,6 @@ export default function PrimarySearchAppBar() {
                         <Categorias />
                     </Box>
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-                        <IconButton size="large" aria-label="show 0 new mails" color="inherit">
-                            <Badge badgeContent={0} color="error">
-                                <MailIcon />
-                            </Badge>
-                        </IconButton>
                         <IconButton
                             size="large"
                             aria-label="show 0 new notifications"
@@ -201,6 +197,15 @@ export default function PrimarySearchAppBar() {
                         >
                             <Badge badgeContent={0} color="error">
                                 <NotificationsIcon />
+                            </Badge>
+                        </IconButton>
+                        <IconButton
+                            size="large"
+                            aria-label="show 5 items in cart"
+                            color="inherit"
+                        >
+                            <Badge badgeContent={5} color="error">
+                                <ShoppingCartSharpIcon />
                             </Badge>
                         </IconButton>
                         <IconButton

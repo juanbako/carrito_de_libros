@@ -1,4 +1,4 @@
-import { fontSize } from '@mui/system';
+import * as React from 'react';
 import  { Component } from 'react';
 
 class Categorias extends Component {
