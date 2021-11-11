@@ -1,13 +1,11 @@
 import * as React from 'react';
-import LibroCard from './cardLibro';
-import AddCarrito from './AddCarrito';
+import LibroCard from './LibroCard';
 
-export default function Vidriera() {
+export default function ItemListContainer() {
 
     return (
         <div>
             <LibroCard />
-            <AddCarrito />    
         </div>
         
     );

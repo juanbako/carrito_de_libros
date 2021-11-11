@@ -8,7 +8,8 @@ import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore'; 
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import ItemCount from './ItemCount'; 
 
 
 const ExpandMore = styled((props) => {
@@ -75,6 +76,7 @@ export default function LibroCard() {
                     </Typography>
                 </CardContent>
             </Collapse>
+            <ItemCount stock={20} initial={1} />
         </Card>
     );
 }
