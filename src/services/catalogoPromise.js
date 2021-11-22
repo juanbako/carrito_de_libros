@@ -34,6 +34,15 @@ const librosEnStock = [
         "categoria":"Novela biografica",
         "precio":"1100",
         "stock":"3"
+    },
+    {
+        "id":5,
+        "titulo":"Rayuela",
+        "autor":"Cortazar, Julio",
+        "editorial":"Alfa",
+        "categoria":"Novela",
+        "precio":"2300",
+        "stock":"1"
     }
 ]
 
