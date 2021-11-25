@@ -1,3 +1,4 @@
+import React from 'react';
 import ItemPelicula from "./ItemPelicula"
 import { Grid } from "@mui/material"
 

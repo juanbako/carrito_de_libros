@@ -1,3 +1,4 @@
+import React from 'react'
 import { Grid } from '@mui/material';
 import { useState, useEffect } from 'react';
 import peliculasGhibli from '../../services/peliculasGhibli';

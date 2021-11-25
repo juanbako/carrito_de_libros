@@ -1,8 +1,8 @@
-
+import React from 'react'
 import './App.css';
 import NavBar from './components/navbar/navbar';
-import ItemListContainer from './components/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import ItemListContainer from './components/libros/ItemListContainer';
+import ItemDetailContainer from './components/peliculas/ItemDetailContainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
