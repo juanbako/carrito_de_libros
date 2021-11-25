@@ -23,7 +23,7 @@ const Item = ({ed, titulo, autor, categoria, precio}) => {
                             {categoria}
                         </Typography>
                         <Typography>
-                            ${precio}
+                            $ {precio}
                         </Typography>
                     </CardContent>
                 </React.Fragment>

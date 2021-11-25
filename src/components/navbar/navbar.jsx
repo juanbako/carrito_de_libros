@@ -204,7 +204,7 @@ export default function PrimarySearchAppBar() {
                             aria-label="show 5 items in cart"
                             color="inherit"
                         >
-                            <Badge badgeContent={5} color="error">
+                            <Badge badgeContent={0} color="error">
                                 <ShoppingCartSharpIcon />
                             </Badge>
                         </IconButton>
