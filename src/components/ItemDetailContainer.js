@@ -20,7 +20,6 @@ const ItemDetailContainer = () => {
         <>
         <ItemDetail peliculas={peliculas} />
         </>
-        
         );        
 }
     

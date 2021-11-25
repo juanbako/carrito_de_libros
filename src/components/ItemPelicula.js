@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import ItemCount from './ItemCount';
 
-const ItemPelicula = ({titulo, poster, descripcion, precio, stock}) => {
+const ItemPelicula = ({titulo, poster, descripcion, precio, stock, initial}) => {
     return (
         <Grid
             item
@@ -32,7 +32,7 @@ const ItemPelicula = ({titulo, poster, descripcion, precio, stock}) => {
                 <Typography>
                     $ {precio}
                 </Typography>
-                <ItemCount stock={stock} initial={1}/>
+                <ItemCount stock={stock} initial={initial}/>
             </Card>
         </Grid>
     );

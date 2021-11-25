@@ -19,6 +19,7 @@ const ItemDetail = ({peliculas}) => {
                     descripcion={peliculas.descripcion}
                     precio={peliculas.precio}
                     stock={peliculas.stock}
+                    initial={peliculas.initial}
                 />
             </Grid>
         </>
