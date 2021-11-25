@@ -9,7 +9,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import ItemCount from './ItemCount'; 
+import ItemCount from '../ItemCount'; 
 
 
 const ExpandMore = styled((props) => {

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useState, useEffect } from 'react';
 import LibroCard from './LibroCard';
 import ItemList from './ItemList';
-import catalogoPromise from '../services/catalogoPromise'
+import catalogoPromise from '../../services/catalogoLibros'
 
 
 const ItemListContainer = () => {

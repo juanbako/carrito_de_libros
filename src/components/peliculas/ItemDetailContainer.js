@@ -1,5 +1,6 @@
+import { Grid } from '@mui/material';
 import { useState, useEffect } from 'react';
-import peliculasGhibli from '../services/peliculasGhibli';
+import peliculasGhibli from '../../services/peliculasGhibli';
 import ItemDetail from './ItemDetail';
 
 
@@ -18,7 +19,15 @@ const ItemDetailContainer = () => {
     
     return (
         <>
-        <ItemDetail peliculas={peliculas} />
+        <Grid
+        container
+        spacing={5}
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+        >
+            <ItemDetail peliculas={peliculas} />
+        </Grid>
         </>
         );        
 }
