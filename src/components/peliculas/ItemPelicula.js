@@ -6,35 +6,36 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import ItemCount from '../ItemCount';
 
-const ItemPelicula = ({titulo, poster, descripcion, precio, stock}) => {
+const ItemPelicula = ({id, titulo, imagen, descripcion, precio, stock}) => {
     return (
-        <Grid
-            item
-            marginBottom={5}
-            marginTop={3}
-        >
-            <Card sx={{ maxWidth: 400,
-                color: 'black.main'}}>
-                <CardMedia
-                    component="img"
-                    height="600"
-                    image={poster}
-                    alt={titulo} 
-                />
-                <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        {titulo}
+            <Grid
+                item
+                marginBottom={5}
+                marginTop={3}
+            >
+                <Card sx={{ maxWidth: 400,
+                    color: 'black.main'}}>
+                    <CardMedia
+                        component="img"
+                        height="600"
+                        image={imagen}
+                        alt={titulo} 
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                            {titulo}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            {descripcion}
+                        </Typography>
+                    </CardContent>
+                    <Typography>
+                        $ {precio}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                        {descripcion}
-                    </Typography>
-                </CardContent>
-                <Typography>
-                    $ {precio}
-                </Typography>
-                <ItemCount stock={stock} initial={1}/>
-            </Card>
-        </Grid>
+                    <ItemCount stock={stock} initial={1}/>
+                </Card>
+            </Grid>
+        
     );
 }
 

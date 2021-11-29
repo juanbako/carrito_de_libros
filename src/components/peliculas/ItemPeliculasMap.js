@@ -2,7 +2,7 @@ import React from 'react';
 import ItemPelicula from "./ItemPelicula"
 import { Grid } from "@mui/material"
 
-const ItemDetail = ({peliculas}) => {
+const ItemPeliculasMap = ({peliculas}) => {
     console.log("peliculas:", peliculas)
 
     return(
@@ -13,9 +13,10 @@ const ItemDetail = ({peliculas}) => {
             item
             >    
                 <ItemPelicula
+                    id={pelicula.id}
                     key={pelicula.id} 
                     titulo={pelicula.title}
-                    poster={pelicula.image}
+                    imagen={pelicula.image}
                     descripcion={pelicula.description}
                     precio={200}
                     stock={4}
@@ -26,4 +27,4 @@ const ItemDetail = ({peliculas}) => {
         )
 }
 
-export default ItemDetail
+export default ItemPeliculasMap

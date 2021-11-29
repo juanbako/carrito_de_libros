@@ -2,10 +2,10 @@ import React from 'react'
 import { Grid } from '@mui/material';
 import { useState, useEffect } from 'react';
 import peliculasGhibli from '../../services/peliculasGhibli';
-import ItemDetail from './ItemDetail';
+import ItemPeliculasMap from './ItemPeliculasMap';
 
 
-const ItemDetailContainer = () => {
+const ItemPeliculasList = () => {
     const [peliculas, setPeliculas] = useState([])
     console.log('peliculas:', peliculas)
     
@@ -27,10 +27,10 @@ const ItemDetailContainer = () => {
         justifyContent="center"
         alignItems="center"
         >
-            <ItemDetail peliculas={peliculas} />
+            <ItemPeliculasMap peliculas={peliculas} />
         </Grid>
         </>
         );        
 }
     
-export default ItemDetailContainer
+export default ItemPeliculasList
