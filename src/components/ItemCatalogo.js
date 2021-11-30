@@ -4,10 +4,10 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import ItemCount from '../ItemCount';
+import ItemCount from './ItemCount';
 import { Link } from 'react-router-dom';
 
-const ItemPelicula = ({id, title, image, description, precio, stock}) => {
+const ItemCatalogo = ({id, title, image, description, precio, stock}) => {
     return (
         <Link to={`/itemp/${id}`}>
             <Grid
@@ -41,4 +41,4 @@ const ItemPelicula = ({id, title, image, description, precio, stock}) => {
     );
 }
 
-export default ItemPelicula
+export default ItemCatalogo

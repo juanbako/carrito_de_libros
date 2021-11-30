@@ -17,6 +17,8 @@ const ItemPeliculasList = () => {
             }, 2000)
         })
     }, [])
+
+    console.log(peliculas)
     
     return (
         <>

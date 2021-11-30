@@ -4,7 +4,9 @@ import NavBar from './components/navbar/navbar';
 import ItemLibrosList from './components/libros/ItemLibrosList';
 import ItemPeliculasList from './components/peliculas/ItemPeliculasList';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ItemDetailContainer from './components/ItemDetailContainer';
+import ItemDetailLibrosContainer from './components/libros/ItemDetailLibrosContainer';
+import ItemDetailPeliculasContainer from './components/peliculas/ItemDetailPeliculasContainer';
+
 
 function App() {
 
@@ -15,7 +17,8 @@ function App() {
         <Routes>
           <Route path="libros" element={ <ItemLibrosList /> } />     
           <Route path="peliculas" element={ <ItemPeliculasList /> } />
-          <Route path="item/:id" element={ <ItemDetailContainer /> } />
+          <Route path="item/:id" element={ <ItemDetailLibrosContainer /> } />
+          <Route path="itemp/:id" element={ <ItemDetailPeliculasContainer /> } />
         </Routes>
       </div>
     </BrowserRouter>

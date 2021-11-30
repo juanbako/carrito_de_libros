@@ -15,9 +15,9 @@ const ItemPeliculasMap = ({peliculas}) => {
                 <ItemPelicula
                     id={pelicula.id}
                     key={pelicula.id} 
-                    titulo={pelicula.title}
-                    imagen={pelicula.image}
-                    descripcion={pelicula.description}
+                    title={pelicula.title}
+                    image={pelicula.image}
+                    description={pelicula.description}
                     precio={200}
                     stock={4}
                 />

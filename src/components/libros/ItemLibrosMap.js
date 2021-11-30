@@ -13,14 +13,14 @@ const ItemLibrosMap = ({libros}) => {
                         <ItemLibro
                             key={libro.id}
                             id={libro.id} 
-                            titulo={libro.titulo}
-                            autor={libro.autor}
+                            titulo={libro.title}
+                            autor={libro.autor_director}
                             ed={libro.editorial}
                             categoria={libro.categoria}
                             precio={libro.precio}
                             stock={libro.stock}
-                            imagen={libro.imagen}
-                            descripcion={libro.descripcion}
+                            imagen={libro.image}
+                            descripcion={libro.description}
                         />
                     </Grid>
                 )

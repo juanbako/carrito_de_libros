@@ -2,74 +2,74 @@ const librosEnStock = [
     {
         "id":1,
         "key": 1,
-        "titulo":"Nuestra parte de noche",
-        "autor":"Enriquez, Mariana",
+        "title":"Nuestra parte de noche",
+        "autor_director":"Enriquez, Mariana",
         "editorial":"Anagrama",
         "categoria":"Novela",
         "precio":"2000",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"5",
-        "imagen":"../img/nuestra-parte-de-noche_enriquez.jpeg"
+        "image":"../img/nuestra-parte-de-noche_enriquez.jpeg"
     },
     {
         "id":2,
         "key": 2,
-        "titulo":"Cronica del pajaro que da cuerda al mundo",
-        "autor":"Murakami, Haruki",
+        "title":"Cronica del pajaro que da cuerda al mundo",
+        "autor_director":"Murakami, Haruki",
         "editorial":"Tusquets",
         "categoria":"Novela",
         "precio":"1800",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"2",
-        "imagen":"../img/cronica-del-pajaro-que-da-cuerda-al-mundo_murakami.jpg"
+        "image":"../img/cronica-del-pajaro-que-da-cuerda-al-mundo_murakami.jpg"
     },
     {
         "id":3,
         "key": 3,
-        "titulo":"El sol mueve la sombra de las cosas quietas",
-        "autor":"Kamiya, Alejandra",
+        "title":"El sol mueve la sombra de las cosas quietas",
+        "autor_director":"Kamiya, Alejandra",
         "editorial":"Bajo la luna",
         "categoria":"Relatos",
         "precio":"1500",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"6",
-        "imagen":"../img/el-sol-mueve-la-sombra-de-las-cosas-quietas_kamiya.jpg"
+        "image":"../img/el-sol-mueve-la-sombra-de-las-cosas-quietas_kamiya.jpg"
     },
     {
         "id":4,
         "key": 4,
-        "titulo":"Por qué volvias cada verano",
-        "autor":"Lopez Peiro, Belen",
+        "title":"Por qué volvias cada verano",
+        "autor_director":"Lopez Peiro, Belen",
         "editorial":"Madreselva",
         "categoria":"Novela biografica",
         "precio":"1100",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"3",
-        "imagen":"../img/por-que-volvias-cada-verano_lopez-peiro.jpg"
+        "image":"../img/por-que-volvias-cada-verano_lopez-peiro.jpg"
     },
     {
         "id":5,
         "key": 5,
-        "titulo":"Rayuela",
-        "autor":"Cortazar, Julio",
+        "title":"Rayuela",
+        "autor_director":"Cortazar, Julio",
         "editorial":"Alfa",
         "categoria":"Novela",
         "precio":"2300",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"1",
-        "imagen":"../img/rayuela_cortazar.jpeg"
+        "image":"../img/rayuela_cortazar.jpeg"
     },
     {
         "id":6,
         "key": 6,
-        "titulo":"Primera persona del singular",
-        "autor":"Murakami, Haruki",
+        "title":"Primera persona del singular",
+        "autor_director":"Murakami, Haruki",
         "editorial":"Tusquets",
         "categoria":"Cuentos",
         "precio":"1900",
-        "descripcion":"reseña del libro",
+        "description":"reseña del libro",
         "stock":"3",
-        "imagen":"../img/primera-persona-del-singular_murakami.jpg"
+        "image":"../img/primera-persona-del-singular_murakami.jpg"
     }
 ]
 
