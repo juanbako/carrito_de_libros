@@ -44,7 +44,7 @@ const ItemDetailLibro = ({item}) => {
                         $ {item.precio}
                     </Typography>
 
-                    <ItemCount stock={item.stock} initial={1} />
+                    <ItemCount stock={item.stock} initial={1}/>
                 </Grid>
             </Card>
         </Grid>

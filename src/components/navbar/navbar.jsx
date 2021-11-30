@@ -217,6 +217,7 @@ export default function PrimarySearchAppBar() {
                                 <ShoppingCartSharpIcon />
                             </Badge>
                         </IconButton>
+                        
                         <IconButton
                             size="large"
                             edge="end"

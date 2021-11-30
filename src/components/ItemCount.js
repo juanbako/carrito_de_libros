@@ -6,7 +6,8 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
 const ItemCount = ({stock, initial}) => {
-    const [contador, setContador] = useState(initial)
+    const [contador, setContador] = useState(initial) 
+    const [carrito, setCarrito] = useState(initial)   
 
     const sumar = () => {
         if (contador < stock) {
@@ -19,9 +20,9 @@ const ItemCount = ({stock, initial}) => {
     }
 
     const onAdd = () => {
-            alert(`Agregaste ${contador} productos al carrito`)
-    }
-
+        setCarrito(carrito + contador)
+        }
+    
     return (
         <>
         <div>

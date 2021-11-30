@@ -14,7 +14,7 @@ const ItemDetailPeliculasContainer = () => {
 
     useEffect(() => {
         peliculasGhibli.then((res) => {
-            setItem(res.find((item) => item.id == id))
+            setItem(res.find((item) => item.id === id))
         })
         
     }, [id]); 
